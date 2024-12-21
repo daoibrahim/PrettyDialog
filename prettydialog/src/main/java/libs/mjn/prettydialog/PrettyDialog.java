@@ -164,6 +164,10 @@ public class PrettyDialog extends AppCompatDialog {
         }
         return this;
     }
+    public PrettyDialog seMessageGraviy(int gravity){
+        tv_message.setGravity(gravity);
+        return this;
+    }
 
     public PrettyDialog setMessageColor(Integer color){
         //tv_message.setTextColor(ContextCompat.getColor(context,color==null?R.color.pdlg_color_black :color));
